@@ -15,9 +15,11 @@ dependencies:
   # Supabase for real-time database sync
   supabase_flutter: ^2.3.0
 
-  # Square Mobile Payments SDK (official Flutter plugin)
-  # This is the successor to the retired Reader SDK
-  square_mobile_payments: ^1.0.0
+  # Square Mobile Payments SDK
+  # NOTE: Square SDK must be added manually following Square's documentation
+  # Visit: https://developer.squareup.com/docs/mobile-payments-sdk
+  # The SDK is not available on pub.dev and requires manual integration
+  # square_in_app_payments: ^1.7.0  # Alternative: In-App Payments SDK
 
   # State management
   provider: ^6.1.1
